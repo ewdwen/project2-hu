@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#super-container {
+    margin: 0 !important;
+    /* overflow-y: hidden !important; */
+}
+
+#whatsupp-icon {
+    top: 3vh;
+    left: 3vh;
+}
+
+#whatsupp-icon img {
+    height: 80%;
+    padding-right: 12% !important;
+    margin-top: 10% !important;
+}
+
+
+#upper-container {
+    /* width: 1920px; 100% 100vw
+    height: 634px; 58.7%*/
+    width: 100vw !important;
+    height: 58.7vh;
+    background-color: #0EE1E1;
+}
+
+#upper-container h1 {
+    font: normal normal 900 4rem Heebo;
+}
+
+#upper-container p {
+    font: normal normal normal 20px/29px Heebo;
+}
+
+div[id^='box'] {
+    height: 30.5vh;
+    width: 23.5vw;
+    /* border: 1px solid #000; */
+    background-color: #F8F8F8;
+}
+
+/* #whatsupp-icon {
+    height: 7vh;
+} */
+
+img+h4 {
+    color: #0EE1E1;
+    font: normal normal 900 1.8rem Heebo;
+}
+
+h4+p {
+    font: normal normal normal 0.9rem Heebo;
+}
+
+#lower-container {
+    width: 100vw;
+}
+
+#back-section {
+    background-color: #0EE1E1;
+    width: 60vw;
+    height: 100vh;
+}
+
+#map-container {
+    width: 90%;
+    height: 90%;
+}
+
+/* #middle-container {} */
+
+#form-container {
+    background-color: #F0FFFF;
+}
+
+#form-container>div>h2 {
+    font: normal normal 900 2.9rem Heebo;
+}
+
+#form-container>div>p {
+    font: normal normal normal 1rem Heebo;
+}
+
+form>div>label {
+    font: normal normal bold 0.8rem Heebo;
+    color: #2C2C2C;
+}
+
+form>div>div>input[type="text"],
+input[type="email"] {
+    background-color: #E5EEFF !important;
+    border-bottom: 5px solid #0EE1E1 !important;
+    border-radius: 0 !important;
+}
+
+form>div>div>input[name="fText"] {
+    line-height: 7;
+    border-radius: 0 !important;
+}
+
+form>div>div>input[type="submit"] {
+    background-color: #0EE1E1;
+    width: 100%;
+    border-radius: 0 !important;
+    font: normal normal bold 1.25rem Heebo;
+    letter-spacing: 0.019rem;
+}
+
+#bottom-container {
+    height: 15vh;
+    width: 100vw;
+}
+
+#bottom-container>div {
+    background-color: #0EE1E1;
+    height: 50%;
+}
+
+#bottom-container>.rounded-circle>div[id$=icon] {
+    height: 10vh;
+    width: 10vh;
+}
+
+footer {
+    height: 2vh;
+    background-color: #0EE1E1;
+}

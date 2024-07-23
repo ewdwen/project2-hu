@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: wisdowVacation;
+    src: url(../fonts/WisdomVacation.ttf);
+}
+
+/* General */
+
+a:hover {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+/* Header */
+
+#header h4 {
+    font-family: wisdowVacation, sans-serif;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Nav-bar */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 0 0 1.875rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ab346f;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+#hamburger {
+    color: azure;
+    display: none;
+}
+
+/* End Header Nav-bar */
+
+/* Header-Hero */
+#hero {
+    background: url("../index/home-bg.jpg");
+    background-position: -7vw -45vh;
+    /* background-size: 50%; */
+    /* height: 100vh; */
+    width: 100%;
+}
+
+#hero h1 {
+    font-family: wisdowVacation, "Helvetica Neue";
+    font-size: 8rem;
+
+}
+
+#hero p {
+    font-size: 2rem;
+}
+
+
+
+
+/* Footer */
+
+#footer {
+    background: #f7f7f7;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+#footer .container .socials-media ul>li a i {
+    color: #39071a;
+}
+
+#footer p {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* End-Footer */
+
+
+@media (max-width: 576px) {
+
+    /* Navbar */
+    nav {
+        padding: 1.25rem 0.938rem;
+    }
+
+    .nav-menu {
+        margin-top: 2.5rem;
+        display: none;
+        float: none;
+        width: 100%;
+    }
+
+    .nav-menu li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #f7f7f7;
+        line-height: 40.313rem;
+        margin-left: 0;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .responsive {
+        float: right;
+        padding-top: 0.938rem;
+        display: block;
+    }
+
+    /* About */
+    .head-info .header-content h1 {
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    #footer .socials-media ul li {
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+        display: inline-block;
+    }
+}
